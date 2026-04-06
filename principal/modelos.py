@@ -1,4 +1,4 @@
-from autenticacion import Autenticacion
+from principal.autenticacion import Autenticacion
 
 class Persona:
     def __init__(self, nombre, edad):

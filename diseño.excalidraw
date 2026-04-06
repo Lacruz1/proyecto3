@@ -65,7 +65,7 @@
       "version": 120,
       "versionNonce": 454770711,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1774702589038,
       "link": null,
       "locked": false,
@@ -145,7 +145,7 @@
       "version": 38,
       "versionNonce": 1003647607,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1774702653380,
       "link": null,
       "locked": false,
@@ -182,7 +182,7 @@
       "version": 5,
       "versionNonce": 1273695127,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1774702653381,
       "link": null,
       "locked": false,
@@ -244,8 +244,8 @@
         "type": 3
       },
       "seed": 1034635833,
-      "version": 399,
-      "versionNonce": 1110814585,
+      "version": 403,
+      "versionNonce": 245687642,
       "isDeleted": false,
       "boundElements": [
         {
@@ -257,39 +257,19 @@
           "type": "arrow"
         },
         {
-          "id": "m1nb2BOPUSAh6GsZn5wMf",
-          "type": "arrow"
-        },
-        {
-          "id": "GgpXDuqrnE3xaUa1X3eib",
-          "type": "arrow"
-        },
-        {
-          "id": "0_oweqnc8ao5s7ky4ML14",
-          "type": "arrow"
-        },
-        {
-          "id": "PSuiwgRx3Z00lkPXvzCfL",
-          "type": "arrow"
-        },
-        {
-          "id": "-MYiD12DcYp6yYfxkgxMq",
-          "type": "arrow"
-        },
-        {
-          "id": "0CcM-cU_EruMWq-rQcOZu",
-          "type": "arrow"
-        },
-        {
           "id": "fAIKGlAx2mhUjTU0zobd5",
           "type": "arrow"
         },
         {
           "id": "R6BpwDrtTxLDgB5-nl_-3",
           "type": "arrow"
+        },
+        {
+          "id": "0_oweqnc8ao5s7ky4ML14",
+          "type": "arrow"
         }
       ],
-      "updated": 1774703863780,
+      "updated": 1775507073738,
       "link": null,
       "locked": false
     },
@@ -313,11 +293,11 @@
       "index": "a9",
       "roundness": null,
       "seed": 1026576855,
-      "version": 387,
-      "versionNonce": 430694553,
+      "version": 389,
+      "versionNonce": 996121734,
       "isDeleted": false,
-      "boundElements": null,
-      "updated": 1774703305120,
+      "boundElements": [],
+      "updated": 1775507073739,
       "link": null,
       "locked": false,
       "points": [
@@ -387,7 +367,7 @@
       "version": 702,
       "versionNonce": 1680207705,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1774703077245,
       "link": null,
       "locked": false,
@@ -456,11 +436,11 @@
       "index": "aF",
       "roundness": null,
       "seed": 1902972151,
-      "version": 155,
-      "versionNonce": 1786308855,
+      "version": 157,
+      "versionNonce": 394664902,
       "isDeleted": false,
-      "boundElements": null,
-      "updated": 1774703840094,
+      "boundElements": [],
+      "updated": 1775507073740,
       "link": null,
       "locked": false,
       "points": [
@@ -530,7 +510,7 @@
       "version": 307,
       "versionNonce": 1205946935,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1774703828893,
       "link": null,
       "locked": false,
@@ -566,8 +546,8 @@
         "type": 3
       },
       "seed": 1880245143,
-      "version": 78,
-      "versionNonce": 339392375,
+      "version": 157,
+      "versionNonce": 1183462726,
       "isDeleted": false,
       "boundElements": [
         {
@@ -575,7 +555,7 @@
           "type": "arrow"
         }
       ],
-      "updated": 1774703474884,
+      "updated": 1775507073738,
       "link": null,
       "locked": false
     },
@@ -599,11 +579,11 @@
       "index": "aI",
       "roundness": null,
       "seed": 64398681,
-      "version": 79,
-      "versionNonce": 1493348503,
+      "version": 158,
+      "versionNonce": 249702790,
       "isDeleted": false,
-      "boundElements": null,
-      "updated": 1774703474885,
+      "boundElements": [],
+      "updated": 1775507073741,
       "link": null,
       "locked": false,
       "points": [
@@ -670,11 +650,11 @@
       "index": "aJ",
       "roundness": null,
       "seed": 468135353,
-      "version": 683,
-      "versionNonce": 1610450039,
+      "version": 685,
+      "versionNonce": 1045727002,
       "isDeleted": false,
-      "boundElements": null,
-      "updated": 1774703542954,
+      "boundElements": [],
+      "updated": 1775507073170,
       "link": null,
       "locked": false,
       "text": "HISTORIAL MEDICO:\n- muestra una lista con el\nnombre de los pacientes, si\nse selecciona algun nombre\nse debe abrir un panel o\nventana que muestre por\npor fecha sus citas anteriores\ncon todos los datos \nregistrados. ademas de un panel\npara ingresar texto para que si \nhya muchos pacientes se pueda\nbuscar de una forma mas facil.",
@@ -742,11 +722,11 @@
       "index": "aL",
       "roundness": null,
       "seed": 266836023,
-      "version": 124,
-      "versionNonce": 584239895,
+      "version": 126,
+      "versionNonce": 18526982,
       "isDeleted": false,
-      "boundElements": null,
-      "updated": 1774703783822,
+      "boundElements": [],
+      "updated": 1775507073740,
       "link": null,
       "locked": false,
       "points": [
@@ -816,7 +796,7 @@
       "version": 736,
       "versionNonce": 971061497,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1774703787158,
       "link": null,
       "locked": false,
@@ -885,11 +865,11 @@
       "index": "aP",
       "roundness": null,
       "seed": 705456793,
-      "version": 211,
-      "versionNonce": 1346372473,
+      "version": 213,
+      "versionNonce": 1385849414,
       "isDeleted": false,
-      "boundElements": null,
-      "updated": 1774703948299,
+      "boundElements": [],
+      "updated": 1775507073741,
       "link": null,
       "locked": false,
       "points": [
@@ -959,7 +939,7 @@
       "version": 182,
       "versionNonce": 1593352087,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1774703943627,
       "link": null,
       "locked": false,
