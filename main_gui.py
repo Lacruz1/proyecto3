@@ -5,6 +5,16 @@ import os
 from datetime import datetime
 from principal.modelos import Doctor, Paciente
 from principal.autenticacion import ErrorDeLogin
+#idea sugerida por un programador profesional
+import logging
+
+# Configuración del sistema de Logs
+logging.basicConfig(
+    filename='errores.log',           # Nombre del archivo
+    level=logging.ERROR,              # Nivel de error que queremos capturar
+    format='%(asctime)s - %(levelname)s - %(message)s', # Formato: Fecha - Tipo - Mensaje
+    datefmt='%Y-%m-%d %H:%M:%S'       # Formato de la fecha
+)
 
 # Excepciones personalizadas para el proyecto
 class ErrorDeValidacion(Exception):
@@ -56,6 +66,7 @@ class AplicacionMedico:
             with open(self.archivo_bd, "w") as f:
                 json.dump(datos, f, indent=4)
         except Exception as e:
+            logging.exception(f"Fallo al intentar guardar los datos: {e}")
             messagebox.showerror("Error", f"No se pudo guardar: {e}")
 
     #verifica que exista el archivo con los datos y vuelve a organizar los objetos
@@ -110,6 +121,7 @@ class AplicacionMedico:
                 messagebox.showinfo("Éxito", "Doctor registrado.")
                 self.pantalla_login()
             except ErrorDeValidacion as e:
+                logging.exception(f"Fallo al intentar validar los datos: {e}")
                 messagebox.showwarning("Atención", str(e))
 
         tk.Button(self.contenedor, text="Finalizar Registro", command=registrar, bg="#2ecc71", fg="white").pack(pady=20)
@@ -130,6 +142,7 @@ class AplicacionMedico:
                 if self.doctor_sistema.Validar_acceso(u.get(), c.get()):
                     self.menu_principal()
             except ErrorDeLogin as e:
+                logging.exception(f"Fallo al intentar iniciar sesion: {e}")
                 messagebox.showerror("Acceso Denegado", str(e))
 
         tk.Button(self.contenedor, text="Iniciar Sesión", command=entrar, width=15).pack(pady=15)
@@ -175,6 +188,7 @@ class AplicacionMedico:
                 messagebox.showinfo("Éxito", "Paciente guardado.")
                 self.menu_principal()
             except ErrorDeValidacion as e:
+                logging.exception(f"Fallo al intentar guardar los datos: {e}")
                 messagebox.showwarning("Error", str(e))
 
         tk.Button(self.contenedor, text="Guardar Paciente", command=guardar, bg="#3498db", fg="white").pack(pady=15)
