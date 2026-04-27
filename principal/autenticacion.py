@@ -9,5 +9,5 @@ class Autenticacion:
 
     def Validar_acceso(self, intento_usuario, intento_clave):
         if intento_usuario == self.usuario and intento_clave == self.clave:
-            return True
+            return True 
         raise ErrorDeLogin("Usuario o clave incorrectos")
