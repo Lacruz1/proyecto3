@@ -18,5 +18,17 @@ class TestSistemaMedico(unittest.TestCase):
         with self.assertRaises(ErrorDeLogin):
             self.auth_prueba.Validar_acceso("admin", "clave_erronea")
 
+    def test_agregar_consulta_paciente(self):
+        #para ver si el historiual esta vacio
+        self.assertEqual(len(self.paciente_prueba.historial), 0)
+        
+        #se agrega una consulta
+        self.paciente_prueba.agregar_consulta("20/05/2024", "paciente con fiebre")
+        
+        #ahora se ve si hay una consulta 
+        #y luego vemos si el texto es ek mismo
+        self.assertEqual(len(self.paciente_prueba.historial), 1)
+        self.assertEqual(self.paciente_prueba.historial[0]["nota"], "paciente con fiebre")
+
 if __name__ == "__main__":
     unittest.main()
