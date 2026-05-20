@@ -7,7 +7,8 @@ DESCRIPCIÓN DEL PROYECTO:
 
 Esta aplicación permite a un médico registrarse por única vez, iniciar sesión 
 con credenciales seguras y gestionar una base de datos de pacientes.
-Por ahora es solo eso. tengo pensado si recivo ayuda, que el proyecto tenga mas opciones
+se implementaron las pruebas unitarias usando la librería unittest
+para validar la lógica de login y creación de modelos y manejo ded historial
 
 REQUISITOS:
 
