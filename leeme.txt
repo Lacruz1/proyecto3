@@ -9,6 +9,7 @@ Esta aplicación permite a un médico registrarse por única vez, iniciar sesió
 con credenciales seguras y gestionar una base de datos de pacientes.
 se implementaron las pruebas unitarias usando la librería unittest
 para validar la lógica de login y creación de modelos y manejo ded historial
+profe si ve que me hace falta algo mas aviseme.
 
 REQUISITOS:
 
