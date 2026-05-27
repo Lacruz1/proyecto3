@@ -15,3 +15,9 @@ REQUISITOS:
 
 -python 3.14.3
 -Tkinter (por lo que se viene incluido en python)
+
+
+
+# agregar diagramas
+# oportunidades de mejorar el main_gui
+# requirements.txt (como instalar el proyecto en un entorno virtual (venv))
